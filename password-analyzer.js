@@ -54,6 +54,6 @@ rl.question("Enter a password: ", (password) => {
   const crackTime = estimateCrackTime(password);
   console.log(`🔒 Your password would take approximately: ${crackTime} to crack.`);
   console.log("💡 Tip: Use a mix of uppercase, lowercase, numbers, and symbols for better security!");
-  //rl.close();
+  rl.close();
 });
 
